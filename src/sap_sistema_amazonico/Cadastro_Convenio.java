@@ -4,6 +4,7 @@ package sap_sistema_amazonico;
 import java.awt.Image;
 import java.awt.Toolkit;
 import java.net.URL;
+import java.util.List;
 
 
 public class Cadastro_Convenio extends javax.swing.JFrame {
@@ -27,6 +28,7 @@ public class Cadastro_Convenio extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        lstEmpresa = java.beans.Beans.isDesignTime() ? java.util.Collections.emptyList() : ((javax.persistence.Query)null).getResultList();
         jPanel1 = new javax.swing.JPanel();
         Nome = new javax.swing.JLabel();
         jTextField2 = new javax.swing.JTextField();
@@ -266,5 +268,10 @@ public class Cadastro_Convenio extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField5;
     private javax.swing.JTextField jTextField6;
+    private java.util.List lstEmpresa;
     // End of variables declaration//GEN-END:variables
+
+    private List LinkedList() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
