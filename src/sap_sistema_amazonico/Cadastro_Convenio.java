@@ -1,6 +1,10 @@
 
 package sap_sistema_amazonico;
 
+import java.awt.Image;
+import java.awt.Toolkit;
+import java.net.URL;
+
 
 public class Cadastro_Convenio extends javax.swing.JFrame {
 
@@ -9,6 +13,9 @@ public class Cadastro_Convenio extends javax.swing.JFrame {
      */
     public Cadastro_Convenio() {
         initComponents();
+        URL caminhoIcone=getClass().getResource("/sap_sistema_amazonico/iconbasa.png");
+        Image IconeTitlo=Toolkit.getDefaultToolkit().getImage(caminhoIcone);
+        this.setIconImage(IconeTitlo);
     }
 
     /**
