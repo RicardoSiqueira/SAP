@@ -13,7 +13,7 @@ public class Cadastro_Convenio extends javax.swing.JFrame {
      */
     public Cadastro_Convenio() {
         initComponents();
-        URL caminhoIcone=getClass().getResource("/sap_sistema_amazonico/iconbasa.png");
+        URL caminhoIcone=getClass().getResource("/sap_sistema_amazonico/imagem/iconbasa2.png");
         Image IconeTitlo=Toolkit.getDefaultToolkit().getImage(caminhoIcone);
         this.setIconImage(IconeTitlo);
     }
